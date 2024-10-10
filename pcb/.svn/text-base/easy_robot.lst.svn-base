@@ -1,0 +1,83 @@
+eeschema (2011-07-08 BZR 3044)-stable  >> Creation date: 2011-10-04 22:45:38
+
+#Cmp ( porządek = Oznaczenie )
+| C1         10 uf       
+| C2         100uf       
+| C3         100nf       
+| C4         22pf        
+| C5         22pf        
+| C6         100nf       
+| C7         100nf       
+| C8         1000uf      
+| C9         100nf       
+| C10        22 uf       
+| C11        10 uf       
+| C12        100nf       
+| D2         Power LED   
+| D5         Battery Ind LED
+| F1         FUSE 10A    
+| IC1        ATMEGA32-A  
+| IC2        L293D       
+| P1         VCC         
+| P2         5v          
+| P3         ISP         
+| P4         PD3         
+| P5         PA0-PA3     
+| P6         PC3         
+| P7         PB0-4       
+| P9         Motor_1     
+| P10        Motor_2     
+| P11        I2C         
+| P14        PD7         
+| PS1        CONN_7      
+| R5         220         
+| R8         100k        
+| R9         220         
+| R10        50k         
+| R11        37k         
+| SW1        Reset SW    
+| U4         LM1117      
+| X1         16 Mhz      
+#Koniec Cmp
+
+#Cmp ( porządek = Wartość )
+| 10 uf        C1        
+| 10 uf        C11       
+| 1000uf       C8        
+| 100k         R8        
+| 100nf        C3        
+| 100nf        C6        
+| 100nf        C7        
+| 100nf        C9        
+| 100nf        C12       
+| 100uf        C2        
+| 16 Mhz       X1        
+| 22 uf        C10       
+| 220          R5        
+| 220          R9        
+| 22pf         C4        
+| 22pf         C5        
+| 37k          R11       
+| 50k          R10       
+| 5v           P2        
+| ATMEGA32-A   IC1       
+| Battery Ind LED D5        
+| CONN_7       PS1       
+| FUSE 10A     F1        
+| I2C          P11       
+| ISP          P3        
+| L293D        IC2       
+| LM1117       U4        
+| Motor_1      P9        
+| Motor_2      P10       
+| PA0-PA3      P5        
+| PB0-4        P7        
+| PC3          P6        
+| PD3          P4        
+| PD7          P14       
+| Power LED    D2        
+| Reset SW     SW1       
+| VCC          P1        
+#Koniec Cmp
+
+#Koniec listy
